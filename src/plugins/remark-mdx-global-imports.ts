@@ -12,11 +12,11 @@ import type { Root } from 'mdast';
 import type { VFile } from 'vfile';
 
 const GLOBAL_IMPORTS = [
-  { name: 'ContentFigure', path: '@components/content/ContentFigure.astro' },
-  { name: 'Aside',         path: '@components/content/Aside.astro' },
-  { name: 'Slides',        path: '@components/content/Slides.astro' },
-  { name: 'LinkButton',    path: '@components/content/LinkButton.astro' },
-  { name: 'ImageTable',    path: '@components/content/ImageTable.astro' },
+  { name: 'ContentFigure', path: '@components/ContentFigure.astro' },
+  { name: 'Aside',         path: '@components/Aside.astro' },
+  { name: 'Slides',        path: '@components/Slides.astro' },
+  { name: 'LinkButton',    path: '@components/LinkButton.astro' },
+//   { name: 'ImageTable',    path: '@components/ImageTable.astro' },
 ];
 
 function makeImportNode(name: string, importPath: string) {
