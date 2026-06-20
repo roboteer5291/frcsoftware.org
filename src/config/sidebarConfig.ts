@@ -28,6 +28,16 @@ export const sidebarSections: Record<string, SidebarSection[]> = {
     },
   ],
 
+  // Educator's Guide Section
+  '/educators-guide': [
+    {
+      label: 'Educator\'s Guide',
+      items: [
+        { label: 'Overview', slug: 'educators-guide' },
+      ],
+    },
+  ],
+
   // Other Resources section (maps to /resources in content)
   '/other-resources': [
     {
