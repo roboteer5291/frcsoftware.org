@@ -28,12 +28,21 @@ export const sidebarSections: Record<string, SidebarSection[]> = {
     },
   ],
 
-  // Educator's Guide Section
+  // Educator's Guide section
   '/educators-guide': [
     {
-      label: 'Educator\'s Guide',
+      label: "Educator's Guide",
       items: [
-        { label: 'Overview', slug: 'educators-guide' },
+        { label: 'Introduction', slug: 'educators-guide/introduction' },
+        { label: 'The Stages', slug: 'educators-guide/introduction/the-stages' },
+        { label: 'Preparing Yourself', slug: 'educators-guide/introduction/preparation' },
+        { label: 'Stage 0', slug: 'educators-guide/stage0' },
+        { label: 'Stage 1', collapsed: true, items: [
+          { label: 'Overview', slug: 'educators-guide/stage1' },
+          { label: 'Stage 1A', slug: 'educators-guide/stage1/stage1a' },
+          { label: 'Stage 1B', slug: 'educators-guide/stage1/stage1b' },
+        ]},
+        { label: 'Stage 2', slug: 'educators-guide/stage2' },
       ],
     },
   ],
